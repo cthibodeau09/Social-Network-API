@@ -1,9 +1,9 @@
 const express = require("express");
-const db = require("./config/connection");
-const routes = require("./routes");
+const { MongoClient } = require('mongodb');
+const routes = require("./routes/api");
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
