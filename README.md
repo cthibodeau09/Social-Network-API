@@ -3,11 +3,10 @@
 ## Table of Contents
 
 [#Description]
-[#Technology]
+[Technology](#https://github.com/cthibodeau09/Social-Network-API#technology)
 [#Installation]
 [#Usage]
-[#Contribution]
-
+[Contribution]
 
 ## Description
 
